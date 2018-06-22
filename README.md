@@ -7,6 +7,7 @@ It includes just enough to get CLion's fancy features working (Go to Definition,
 
 ## Usage
 To use, just drop CMakeLists.txt into Radare2's root directory and open radare2 as a project in CLion
+
 If you want to debug with CLion, just build radare2 with `./sys/build.sh CFLAGS='-g'` and then add binr/radare2/radare2 as an debug configuration.
 
 
