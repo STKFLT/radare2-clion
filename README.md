@@ -14,3 +14,5 @@ It is possible that the list of directories containing header files in CMakeList
 ```bash
 for file in $(find . -name '*.h'); do dirname $file; done | sort | uniq
 ```
+then paste the output into include_directories().
+Lastly, I apologize to anyone who actually knows how CMake works that had to look at this.
